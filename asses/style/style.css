@@ -1,0 +1,44 @@
+
+header{
+    background-color: #fffbb4;
+}
+header a{
+    color: #ff5d74;
+}
+
+#navbarNav a:hover{
+    background-color: #ff5d74;
+    color: white;
+}
+#activo{
+    background-color: #ff5d74;
+    color: white;
+}
+#activo>a{
+    background-color: #ff5d74;
+    color: white;
+}
+.tamañoimagencarousel{
+    height: 40rem;
+    width: 100%;
+    object-fit: cover;
+}
+.boxevent{
+    background-color: white;
+    border: solid 1px #ff5d74;
+}
+.details{
+    background-color: beige;
+    border: solid 1px black;
+    border-radius: 10%;
+    height: 2rem;
+    padding: .2rem;
+}
+footer{
+    background-color: #fffbb4;
+}
+.bgmain{
+    background-color: #fffbb4;
+}
+
+  

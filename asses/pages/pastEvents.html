@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Events | Past Events</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img width="200" src="../images/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+              
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./upcomingEvents.html">Upcoming Events</a>
+                    </li>
+                    <li id="activo" class="nav-item">
+                    <a class="nav-link" href="./pastEvents.html">Past Events</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./status.html">Stats</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+        
+    </header>
+
+    <main class="mb-5">
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <img src="../images/optional_banner_1.jpg" class="tamañoimagencarousel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>PAST EVENTS</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../images/optional_banner_2.jpg" class="tamañoimagencarousel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>PAST EVENTS</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../images/optional_banner_3.jpg" class="tamañoimagencarousel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>PAST EVENTS</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../images/optional_banner_4.jpg" class="tamañoimagencarousel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>PAST EVENTS</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../images/optional_banner_5.jpg" class="tamañoimagencarousel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>PAST EVENTS</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+            <form class="form container row py-2 py-md-4 py-lg-5" action="./show_data.html" method="get">
+              <div class="container row m-auto py-2" id="contenedorInputs"></div>
+                <!-- <div class="col-12 col-md-4 col-lg-2 pt-2 ">
+                    <input type="checkbox" name="accept" id="food-fair"> 
+                    <label for="food-fair">Food Fair</label>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 pt-2 ">
+                    <input type="checkbox" name="accept" id="museum">    
+                    <label for="museum">Museum</label>
+                </div>   
+                <div class="col-12 col-md-4 col-lg-3 pt-2 ">
+                    <input type="checkbox" name="accept" id="costume-party">    
+                    <label for="costume-party">Costume Party</label>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 pt-2 ">
+                    <input type="checkbox" name="accept" id="music-concert">    
+                    <label for="music-concert">Music Concert</label>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 pt-2 ">
+                    <input type="checkbox" name="accept" id="race">  
+                    <label for="race">Race</label>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 pt-2 ">
+                    <input type="checkbox" name="accept" id="book-exchange">  
+                    <label for="book-exchange">Book Exchange</label>
+                </div>
+                <div class="col-12 col-md-7 col-lg-3 pt-2 ">
+                    <input type="checkbox" name="accept" id="cinema">  
+                    <label for="cinema">Let's go to the cinema</label>
+                </div>
+                <div class="col-12 col-md-5 col-lg-4 pt-2">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div> -->
+                <div class=" container col-12 col-md-5 col-lg-4 m-3">
+                  <input id="search" type="text" placeholder="Search.." name="search">
+                </div>
+            </form>
+
+              <div id="contenedorCards" class="container d-flex justify-content-center text-center row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- CARDS HTML
+                  
+                <div class="col">
+                  <div class="card h-100 card border-danger">
+                    <img src="../images/food_fair.jpg" class="card-img-top h-50 p-3" alt="food-fair">
+                    <div class="card-body">
+                      <h5 class="card-title">Festival of the collectivities</h5>
+                      <p class="card-text">Enjoy your favorite dishes from different countries in a unique event for the whole family.</p>
+                    </div>
+                    <div class="d-flex flex-row justify-content-evenly">
+                        <p>Price: 5</p>
+                        <a class="text-decoration-none text-dark details" href="./asses/pages/1.html">Details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 card border-danger">
+                    <img src="../images/outing_to_the_museum.jpg" class="card-img-top h-50 p-3" alt="art-exhibition">
+                    <div class="card-body">
+                      <h5 class="card-title">Art Exhibition</h5>
+                      <p class="card-text">Let's go to the art museum for an incredible tour to learn about the largest dinosaurs.</p>
+                    </div>
+                    <div class="d-flex flex-row justify-content-evenly">
+                        <p>Price: 15</p>
+                        <a class="text-decoration-none text-dark details" href="./asses/pages/2.html">Details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 card border-danger">
+                    <img src="../images/marathon.jpg" class="card-img-top h-50 p-3" alt="marathon-10K">
+                    <div class="card-body">
+                      <h5 class="card-title">10K for life</h5>
+                      <p class="card-text">Come and exercise, improve your health and lifestyle.</p>
+                    </div>
+                    <div class="d-flex flex-row justify-content-evenly">
+                        <p>Price: 132</p>
+                        <a class="text-decoration-none text-dark details" href="./5.html">Details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 card border-danger">
+                    <img src="../images/books.jpg" class="card-img-top h-50 p-3" alt="Books">
+                    <div class="card-body">
+                      <h5 class="card-title">School Book Fair</h5>
+                      <p class="card-text">Bring your unused school book and bring the one you need.</p>
+                    </div>
+                    <div class="d-flex flex-row justify-content-evenly">
+                        <p>Price: 1</p>
+                        <a class="text-decoration-none text-dark details" href="./6.html">Details</a>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+    </main>
+
+    <footer class="container-fluid d-flex py-1 col-12">
+        <div class="container-fluid col-lg-6 col-xxl-2 m-0">
+            <a href="#"><img class="col-2 col-md-1 col-lg-1" src="../images/facebook.png" alt="facebook"></a>
+            <a href="#"><img class="col-2 col-md-1" src="../images/instagram.png" alt="instagram"></a>
+            <a href="#"><img class="col-2 col-md-1" src="../images/whatsapp.png" alt="whatsapp"></a>
+        </div>
+        <h6 class="d-flex col-4 col-md-6 col-xxl-10 align-items-center justify-content-end">COHORT 49</h6>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="../jsPages/pastEvents.js"></script>
+</body>
+</html>
